@@ -66,3 +66,24 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+#Todo App Project structure
+
+### App.js file structure
+1. For Class base stucture, Must do **import React, { Component } from 'react';**
+2. class:
+   - Start with base stucture **class <ClassName> extends Component{ }**
+   - inside the **class**, included but not limited
+    a. state which is a javascript object with key:value pairs
+    b. methods that called in render
+    c. render included HTML structure, component within all called methods that re-render each time
+3. Must finish by **export default <fileName>**
+
+### Todo.js file structure (component)
+1. Must do **import React from 'react';**
+2. a function methond
+   - fucntion with **props** parameter
+   - return with HTML structure 
+   - Using **props** to access App.js file ToDo component that have methods 
+3. must finish by **export default <fileName>;**
